@@ -25,7 +25,7 @@ for i in range(0,len(zeilen)-4,5):
 def check():
     summe = 0
     for kugel in kugeln:
-        for f_ind, feld in enumerate(bingo):
+        for f_ind, feld in bingo:
             for linie in feld:
                 for zahl in linie:
                     if zahl == int(kugel):
